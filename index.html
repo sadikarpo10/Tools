@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore a suite of powerful tools for image and PDF processing. Compress, convert, resize, and optimize your files with ease.">
+    <meta name="keywords" content="image tools, PDF tools, compress images, resize images, convert PDF, optimize files">
+    <meta name="author" content="Your Name">
+    <title>Image & PDF Tools</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #2c3e50;
+            --background-color: #f8f9fa;
+            --text-color: #333;
+            --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, var(--secondary-color), #1a2533);
+            color: white;
+            box-shadow: var(--card-shadow);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .main-container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        .tool-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            padding: 1rem;
+        }
+
+        .tool-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--card-shadow);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .tool-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .tool-card-content {
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .tool-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.75rem;
+            color: var(--secondary-color);
+        }
+
+        .tool-card p {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        .tool-card a {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background 0.3s ease;
+        }
+
+        .tool-card a:hover {
+            background: #357abd;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+            color: white;
+            background: var(--secondary-color);
+        }
+
+        @media (max-width: 768px) {
+            .tool-grid {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Image & PDF Tools</h1>
+        <p>Your all-in-one solution for image and PDF processing. Fast, easy, and free!</p>
+    </header>
+
+    <main class="main-container">
+        <div class="tool-grid">
+            <!-- Image Tools -->
+            <div class="tool-card">
+               <div class="tool-card-content">
+    <h3>Compress Images</h3>
+    <p>Reduce image file size without losing quality. Perfect for web optimization.</p>
+    <a href="https://yourwebsite.com/compress-image" target="_blank" rel="noopener noreferrer">Use Tool</a>
+</div>
+
+            </div>
+
+            <div class="tool-card">
+                <div class="tool-card-content">
+                    <h3>Resize Images</h3>
+                    <p>Resize images to any dimension while maintaining aspect ratio.</p>
+                    <a href="/resize-image">Use Tool</a>
+                </div>
+            </div>
+
+            <div class="tool-card">
+                <div class="tool-card-content">
+                    <h3>Convert Images</h3>
+                    <p>Convert images to JPEG, PNG, WebP, and more.</p>
+                    <a href="/convert-image">Use Tool</a>
+                </div>
+            </div>
+
+            <!-- PDF Tools -->
+            <div class="tool-card">
+                <div class="tool-card-content">
+                    <h3>Compress PDF</h3>
+                    <p>Reduce PDF file size without compromising quality.</p>
+                    <a href="/compress-pdf">Use Tool</a>
+                </div>
+            </div>
+
+            <div class="tool-card">
+                <div class="tool-card-content">
+                    <h3>Merge PDF</h3>
+                    <p>Combine multiple PDF files into one document.</p>
+                    <a href="/merge-pdf">Use Tool</a>
+                </div>
+            </div>
+
+            <div class="tool-card">
+                <div class="tool-card-content">
+                    <h3>Split PDF</h3>
+                    <p>Split a PDF into multiple files by pages or sections.</p>
+                    <a href="/split-pdf">Use Tool</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Image & PDF Tools. All rights reserved.</p>
+    </footer>
+</body>
+</html>
